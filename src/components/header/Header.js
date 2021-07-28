@@ -5,7 +5,7 @@ import * as styles from "./styles.module.css"
 
 const Header = ({ siteTitle }) => {
   return (
-    <Navbar collapseOnSelect expand="md" style={{ backgroundColor: "#F5FFFA" }}>
+    <Navbar className={styles.navBar} collapseOnSelect expand="md">
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
