@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", "sans-serif";
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  margin: 2.2rem 0;
+}
+
+h2 {
+  text-align: center;
+  margin: 2.2rem 0;
+}
+
+h3 {
+  text-align: center;
+  margin: 2.2rem 0;
+}
+
+h4 {
+  text-align: center;
+  margin: 2.2rem 0;
+}
+
+h5 {
+  text-align: center;
+  margin: 2.2rem 0;
+}
+
+h6 {
+  text-align: center;
+  margin: 2.2rem 0;
+}
+
+input,
+textarea {
+  width: 300px;
+  max-width: 100%;
+}

@@ -1,0 +1,13 @@
+span {
+  margin: 1rem;
+}
+
+.link {
+  text-decoration: none;
+  color: gray;
+}
+
+.flexCenterDiv {
+  display: flex;
+  justify-content: center;
+}

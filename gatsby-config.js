@@ -4,12 +4,34 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `Website name`,
+    title: `Mike's Blog`,
     description: `description`,
-    author: `author`,
+    author: `Michael Donchenko`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    {
+      resolve: `@contentful/gatsby-transformer-contentful-richtext`,
+    },
+
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `tprlsuheo9qb`,
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+        downloadLocal: true,
+      },
+    },
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        google: {
+          families: ["Montserrat", "sans-serif"],
+        },
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {

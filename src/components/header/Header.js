@@ -5,13 +5,16 @@ import * as styles from "./styles.module.css"
 
 const Header = ({ siteTitle }) => {
   return (
-    <Navbar className={styles.navBar} collapseOnSelect expand="md">
+    <Navbar sticky="top" className={styles.navBar} collapseOnSelect expand="md">
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Link className={styles.brandLink} to="/">
               {siteTitle}
+            </Link>
+            <Link className={styles.link} to="/blogs">
+              Blogs page
             </Link>
             <Link className={styles.link} to="/about">
               About

@@ -2,7 +2,6 @@ main {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: #f8f9f9;
 }
 
 .container {
@@ -13,12 +12,4 @@ main {
 
 .flex1 {
   flex-grow: 1;
-  padding: 1rem;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }

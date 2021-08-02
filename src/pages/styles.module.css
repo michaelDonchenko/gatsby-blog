@@ -1,0 +1,75 @@
+.flexDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  padding: 0.8rem;
+  width: 300px;
+  max-width: 100%;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem auto;
+}
+
+.myButton {
+  box-shadow: 0px 10px 14px -7px #276873;
+  background: linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+  background-color: #599bb3;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 13px 32px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #3d768a;
+}
+.myButton:hover {
+  background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+  background-color: #408c99;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.myButton:disabled {
+  cursor: initial;
+  background: gray;
+  background-color: gray;
+}
+
+.input {
+  padding: 5px;
+  font-size: 16px;
+  border-width: 1px;
+  border-color: #599cb4;
+  background-color: #ffffff;
+  color: #000000;
+  border-style: solid;
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px rgba(66, 66, 66, 0.75);
+  text-shadow: 0px 0px 0px rgba(66, 66, 66, 0.75);
+}
+.input:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+  font-size: 20px;
+  text-align: center;
+  padding: 0.4rem 0;
+}
