@@ -27,10 +27,9 @@ const Index = () => {
         />
       </div>
 
-      <h1>Welcome to my Personal Blog</h1>
-      <h3>My name is Michael Donchenko</h3>
-      <h3>Full stack we developer</h3>
-      <h5>View my most recent blogs</h5>
+      <h1>Michael Donchenko</h1>
+      <h2>Full stack we developer</h2>
+      <h3>Welcome to my Personal Blog</h3>
 
       <Container>
         <Row style={{ display: "flex", justifyContent: "center" }}>
