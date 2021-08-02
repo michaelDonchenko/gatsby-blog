@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import { Container, Navbar, Nav, NavDropdown } from "react-bootstrap"
+import { Container, Navbar, Nav } from "react-bootstrap"
 import * as styles from "./styles.module.css"
 
 const Header = ({ siteTitle }) => {

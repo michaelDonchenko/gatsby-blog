@@ -69,16 +69,25 @@ const Contact = () => {
             <div className={styles.flexColumn}>
               <h4>Links:</h4>
 
-              <a href="https://michael-dev.com" target="_blank">
+              <a
+                href="https://michael-dev.com"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Personal website - michael-dev.com
               </a>
               <a
                 href="https://www.linkedin.com/in/michael-donchenko-39aa711b3/"
                 target="_blank"
+                rel="noreferrer"
               >
                 Linkedin
               </a>
-              <a href="https://github.com/michaelDonchenko" target="_blank">
+              <a
+                href="https://github.com/michaelDonchenko"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Github
               </a>
             </div>
