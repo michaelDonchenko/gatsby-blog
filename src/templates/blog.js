@@ -4,6 +4,7 @@ import { graphql } from "gatsby"
 import * as styles from "./styles.module.css"
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
 import { BLOCKS } from "@contentful/rich-text-types"
+import Seo from "../components/seo/Seo"
 
 const blog = props => {
   const document = JSON.parse(props.data.contentfulBlogPost.body.raw)
@@ -32,6 +33,7 @@ const blog = props => {
 
   return (
     <Layout>
+      <Seo dynamicTitle={props.data.contentfulBlogPost.title} />
       <div className={styles.container}>
         <h1>{props.data.contentfulBlogPost.title}</h1>
 

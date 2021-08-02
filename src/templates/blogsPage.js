@@ -3,6 +3,7 @@ import Layout from "../components/layout/Layout"
 import { graphql } from "gatsby"
 import Pager from "../components/pager/Pager"
 import BlogPost from "../components/blog-post/BlogPost"
+import Seo from "../components/seo/Seo"
 
 const blogsPage = props => {
   const { pageContext, data } = props
@@ -13,6 +14,7 @@ const blogsPage = props => {
 
   return (
     <Layout>
+      <Seo dynamicTitle="Blogs page" />
       <Pager pageContext={pageContext} />
 
       {filteredBlogs.length === 0 && <p>No blogs posts yet</p>}

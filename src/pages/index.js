@@ -4,6 +4,7 @@ import { MostRecentBlogs } from "../graphql/contentfullQueries"
 import BackgroundImageQuery from "../graphql/background-image-query"
 import { Col, Container, Row } from "react-bootstrap"
 import HomePageBlogComponent from "../components/blog-post/HomePageBlogComponent"
+import Seo from "../components/seo/Seo"
 
 const Index = () => {
   const data = MostRecentBlogs()
@@ -19,6 +20,7 @@ const Index = () => {
 
   return (
     <Layout>
+      <Seo dynamicTitle="Home page" />
       <div style={{ display: "flex", justifyContent: "center" }}>
         <img
           src={src}

@@ -3,6 +3,7 @@ import Layout from "../components/layout/Layout"
 import * as styles from "./styles.module.css"
 import { useForm, ValidationError } from "@formspree/react"
 import { Col, Container, Row } from "react-bootstrap"
+import Seo from "../components/seo/Seo"
 
 const Contact = () => {
   const [state, handleSubmit] = useForm("xbjqzykb")
@@ -15,6 +16,7 @@ const Contact = () => {
 
   return (
     <Layout>
+      <Seo dynamicTitle="Contact page" />
       <h1>Contact me</h1>
 
       <Container>
