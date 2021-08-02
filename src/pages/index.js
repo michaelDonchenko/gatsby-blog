@@ -5,6 +5,7 @@ import BackgroundImageQuery from "../graphql/background-image-query"
 import { Col, Container, Row } from "react-bootstrap"
 import HomePageBlogComponent from "../components/blog-post/HomePageBlogComponent"
 import Seo from "../components/seo/Seo"
+import * as styles from "./styles.module.css"
 
 const Index = () => {
   const data = MostRecentBlogs()
@@ -24,7 +25,7 @@ const Index = () => {
       <div style={{ display: "flex", justifyContent: "center" }}>
         <img
           src={src}
-          style={{ width: "100%" }}
+          className={styles.homepageImg}
           alt="Could not load the image"
         />
       </div>
