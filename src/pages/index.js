@@ -31,7 +31,7 @@ const Index = () => {
       </div>
 
       <h1>Michael Donchenko</h1>
-      <h2>Full stack we developer</h2>
+      <h2>Full stack web developer</h2>
       <h3>Welcome to my Personal Blog</h3>
 
       <Container>
